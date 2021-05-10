@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Test Frontend</title>
+</head>
+<body>
+    <nav class="nav">
+       <div class="nav-content">
+            <div class="text-1">Home</div>
+            <div class="text-1">Catalog</div>
+            <div class="text-1">Contact</div>
+       </div>
+       <div onclick="toggle()" class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav> 
+    <div class="hero">  
+       <div class="hero-content">
+        <div class="header-wrapper">
+            <div class="header">Welcome on our online store</div>
+            <div class="header subheader">Here you can order related products and merchandise</div>
+        </div>
+        <button class="btn">Discover more</button>     
+      </div>
+    </div>
+    <div class="space">
+        <div class="toast-container" id="toast-container"></div>
+    </div>
+    <div class="landing">
+        <div class="landing-wrapper">
+            <div class="flex">
+                <div class="container first-element long-wrapper">
+                    <img src="assets/umbrella_category_1.png"/>
+                    <div onclick="openMessage()" class="text">New!</div>
+                </div>
+                <div class="container long-wrapper">
+                    <img src="assets/umbrella_category_1.png"/>
+                    <div class="text">Merchandise</div>
+                  </div>
+            </div>
+            <div class="flex">
+                <div class="container first-element">
+                    <img src="assets/umbrella_category_1.png"/>
+                    <div class="text">Clothing</div>
+                </div>
+                <div class="flex row">
+                    <div class="container first-element short-wrapper mr-20 container-1">
+                        <img src="assets/umbrella_category_1.png"/>
+                        <div class="text">Kids</div>
+                    </div>
+                    <div class="container first-element short-wrapper">
+                        <img src="assets/umbrella_category_1.png"/>
+                        <div class="text">Sports</div>
+                    </div>
+                </div>
+                <div class="container container-1">
+                    <img src="assets/umbrella_category_1.png"/>
+                    <div class="text">Office</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="space"></div>
+    <div class="social-wrapper">
+        <div class="conditions">
+            <div class="text-1">Conditions</div>
+            <div class="text-1">FAQ</div>
+            <div class="text-1">Delivery</div>
+        </div>
+        <div class="social">
+            <img src="assets/social/0010_JLG_Webshop_youtube.png"/>
+            <img src="assets/social/0010_JLG_Webshop_instagram.png"/>
+            <img src="assets/social/linkedin_icon.png"/>
+            <img src="assets/social/0010_JLG_Webshop_facebook.png"/>
+            <img src="assets/social/0010_JLG_Webshop_twitter.png"/>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-text">
+            <span>Algemene Home</span><div>|</div>
+            <div>Site Map</div><div>|</div>
+            <div>Gebruiksvoorwaarden</div><div>|</div>
+            <div>Privacybeleid</div>
+        </div>
+        <div id="copy">
+            Copywrite @ 2021 Industries
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
